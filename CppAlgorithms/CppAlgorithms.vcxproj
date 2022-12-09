@@ -144,7 +144,7 @@
   <ItemGroup>
     <ClInclude Include="Algorithms\DoublyLinkedList.h" />
     <ClInclude Include="Algorithms\LinkedList.h" />
-    <ClInclude Include="Sorts.h" />
+    <ClInclude Include="Algorithms\Sorts.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
