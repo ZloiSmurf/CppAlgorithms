@@ -1,8 +1,7 @@
 /*
-Реализация односвязанного списка
+*  Implementation of a singly linked list
 */
 #pragma once
-#include <iostream>;
 
 template<typename Type> class LinkedList
 {
@@ -30,7 +29,7 @@ public:
 		list_len++;
 	}
 
-	//Insert
+	//Insertion by index
 	void add(Type data, int index) {
 		if (index == 0) {
 			add(data);
@@ -58,6 +57,7 @@ public:
 		std::cout << "NULL\n";
 	}
 
+	//Removing by index
 	void remove(int index) {
 		try {
 			if (is_empty()) throw "List is empty";
